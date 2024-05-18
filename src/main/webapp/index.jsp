@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Currency Converter</h1>
-<form name="inputForm" action="org.example.webcurrencyconverter.CurrencyConverterServlet" method="post">
+<form name="inputForm" action="currency-converter-servlet" method="post">
     <div class="originalCurrency">
         <label for="oCurrency">Original Currency:</label>
         <input type="text" id="oCurrency" name="oCurrency" required><br>

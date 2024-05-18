@@ -6,12 +6,9 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
-	private String message;
-
+@WebServlet(name = "currencyConverterServlet", value = "/currency-converter-servlet")
+public class CurrencyConverterServlet extends HttpServlet {
 	public void init() {
-		message = "Hello World!";
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

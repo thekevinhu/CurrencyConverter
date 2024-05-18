@@ -10,7 +10,7 @@ public class CurrencyConverterTest {
 	}
 
 	@Test
-	public void testConvert() {
+	public void testConvertUSDToEUR() throws Exception {
 		double amount = 1.00;
 		String fromCurrency = "USD";
 		String toCurrency = "EUR";
